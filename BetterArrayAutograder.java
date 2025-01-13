@@ -9,6 +9,8 @@ public class BetterArrayAutograder{
 
   public static boolean arrayEquals(int[] a, int[] b){
     if(a.length != b.length){
+      System.out.println(a.length);
+      System.out.println(b.length);
       System.out.println("Array length mismatch.");
       return false;
     }

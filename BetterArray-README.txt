@@ -30,7 +30,7 @@ int set(int index, int item)
 Replaces the element at position index with item; returns the element formerly
 at position index
 
-int remove(ind index)
+int remove(int index)
 Removes element from position index, moving elements at position index+1 and
 higher to the left and subtracts 1 from size; returns the element formerly at
 position index
